@@ -5,9 +5,11 @@ import Link from 'next/link';
 import { urlFor } from '@/lib/client';
 
 const Product = ({product}) => {
+  // console.log(656)
   return (
     <div> 
-      {/* {console.log(product.slug.current)}  */}
+      {/* { console.log(product+96986)}
+     { console.log(product.slug.current)}  */}
 
        <Link href={`/product/${product.slug.current}`}>
         <div className="product-card">
